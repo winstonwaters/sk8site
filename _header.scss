@@ -1,0 +1,116 @@
+.main-content {
+  margin: 0 auto;
+
+}
+
+.row1 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  vertical-align: top;
+}
+
+
+h6 {
+  width: 60%;
+  padding-left: 79%;
+  padding-right: 1%;
+  color: black;
+  margin-top: 2rem;
+  &.hover {
+    color: green;
+  }
+}
+
+
+.sociallinks {
+    display: flex;
+    border-left: .125rem dotted gray;
+    padding-left: 1rem;
+    padding-right: 3%;
+    .fa-facebook-square {
+    color: #3b5998  ;
+    }
+
+    .fa-rss-square {
+    color: yellow;
+    }
+
+    .fa-twitter-square {
+    color: #00aced
+    }
+
+    .fa-youtube-square {
+    color: #b31217  ;
+    }
+
+    .fa-rss-square {
+    color: #FA9B39  ;
+    }
+  span {
+    float: right;
+    color: red;
+    margin-top: 1rem;
+    color: red;
+    margin-right: 1rem;
+    border-bottom: .25rem solid gray;
+  }
+}
+.row2 {
+  margin-top: 3rem;
+  display: flex;
+  font-size: 1rem;
+  color: white;
+  h2 {
+    background-color: $primaryRed;
+    padding: .1rem;
+    border-style: solid;
+    width: 100%;
+    text-align: center;
+    margin: .8em;
+  }
+}
+
+
+.sliderimg img {
+  width: 60rem;
+  margin-left: 20%;
+  padding: 0;
+  height: 30rem;
+  margin-top: 2rem;
+  border-style: outset;
+  border-color: white;
+
+}
+
+.slider-buttons {
+  margin-left: 53%;
+  color: white;
+  padding-top: 1rem;
+}
+
+.grid {
+
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  left: 60px;
+  top: 3em;
+  margin-top: 9rem;
+  margin-left: -3.9rem;
+}
+
+#logo {
+  position: absolute;
+  top: 258px;
+  right: 918px;
+  width: 179px;
+  height: 100px;
+  // margin-top: -37rem;
+  // padding-left: 20rem;
+  // border: 0px;
+  // z-index: 3; /* put .green-box above .dashed-box */
+
+
+}

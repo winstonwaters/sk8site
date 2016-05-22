@@ -1,0 +1,149 @@
+/* background image*/
+body  {
+ background: url(images/bg.jpg) no-repeat 50% 50% fixed;
+ background-size: cover;
+}
+
+// #color-overlay {
+//   position: fixed;;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: black;
+//   opacity: 0.6;
+//
+
+// THREE COLUMNS OF TEXT
+.row4 {
+  position: relative;
+  margin-left: 12rem;
+  display: flex;
+  padding: 1em;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+  width: 75%;
+  div.box1{
+    background-color: white;
+    margin: .5rem;
+    padding: 1rem;
+    border-bottom-style: outset;
+
+  }
+  div.box2{
+    background-color: white;
+    margin: .5rem;
+    padding: 1rem;
+    border-bottom-style: outset;
+  }
+  div.box3{
+    background-color: white;
+    margin: .5rem;
+    padding: 1rem;
+    border-bottom-style: outset;
+
+
+  }
+  span.date {
+    color: gray;
+    float: left;
+    width: 89%;
+    padding-bottom: .2rem;
+  }
+  p {
+    display: inline-block;
+    width: 94%;
+  }
+  span.readmore {
+    padding-left: 5.5rem;
+    color: $primaryRed;
+  }
+  h3 {
+    width: 70%;
+  }
+
+}
+
+span.article1 {
+  width: 33%;
+
+}
+span.article2 {
+  width: 33%;
+}
+span.article3 {
+  width: 33%;
+}
+
+// grid of images (row5)
+.row5 {
+  width: 100%;
+  display: inline-flex;;
+  flex-wrap: wrap;
+  p {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0;
+  }
+}
+
+.col-1 {
+  width: 60%;
+  display: inline-block;
+}
+
+.2photos {
+    vertical-align: top;
+    display: -webkit-inline-box;
+    height: 2rem;
+    width: 2rem;
+  }
+.steve {
+    height: 2rem;
+    width: 4rem;
+    clear: both;
+  }
+
+.col-2 {
+  width: 40%;
+  vertical-align: top;
+  display: inline-block;
+  float: right;
+}
+
+
+.tommy {
+  position: absolute;
+  height: 39rem;
+}
+
+
+
+// skateboards
+.row6 {
+  border-bottom-style: outset;
+  position: relative;
+  display: inline-block;
+  padding: 3%;
+  background-color: white;
+  margin-left: 27%;
+  margin-bottom: 5%;
+  img {
+    border-style: none;
+    padding: 0.2rem;
+  }
+}
+
+.row6 img:hover {
+  animation-duration: .5s;
+  animation-name: grow;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes grow {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.2); } }
