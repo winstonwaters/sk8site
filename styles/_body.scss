@@ -4,16 +4,8 @@ body  {
  background-size: cover;
 }
 
+// linear-gradient(rgba(109, 109, 109, 0.1)),
 
-// #color-overlay {
-//   position: fixed;;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-color: black;
-//   opacity: 0.6;
-//
 
 // THREE COLUMNS OF TEXT
 .row4 {
@@ -87,7 +79,7 @@ span.article3 {
   text-align: center;
   font-size: 0.7rem;
   margin-bottom: 5rem;
-  text-align: center;
+  // text-align: center;
   .col-1 {
     width: 65%;
     height: 27em;
@@ -108,6 +100,10 @@ span.article3 {
       background-position: center;
       border-style: solid;
     }
+    .lancetype {
+      padding-top: 7rem;
+      font-size: 3rem;
+    }
     .rodney {
       background-size: 25rem;
       margin-top: .5rem;
@@ -120,6 +116,10 @@ span.article3 {
       background-position: center;
       border-style: solid;
     }
+    .rodneytype {
+      padding-top: 7rem;
+      font-size: 3rem;
+    }
     .steve {
       height: 27em;
       width: 95%;
@@ -129,6 +129,10 @@ span.article3 {
       background-position: center;
       border-style: solid;
       margin-top: .5rem;
+    }
+    .stevetype {
+      padding-top: 7rem;
+      font-size: 3rem;
     }
   }
   aside.tommy {
@@ -141,6 +145,12 @@ span.article3 {
     width: 34%;
     display: inline-flex;
     border-style: solid;
+  }
+  .tommytype {
+    padding-top: 16rem;
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 2rem;
   }
 }
 

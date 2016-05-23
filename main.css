@@ -68,8 +68,7 @@ span.article3 {
   color: white;
   text-align: center;
   font-size: 0.7rem;
-  margin-bottom: 5rem;
-  text-align: center; }
+  margin-bottom: 5rem; }
   .row5 .col-1 {
     width: 65%;
     height: 27em;
@@ -88,6 +87,9 @@ span.article3 {
       background-repeat: no-repeat;
       background-position: center;
       border-style: solid; }
+    .row5 .col-1 .lancetype {
+      padding-top: 7rem;
+      font-size: 3rem; }
     .row5 .col-1 .rodney {
       background-size: 25rem;
       margin-top: .5rem;
@@ -99,6 +101,9 @@ span.article3 {
       background-repeat: no-repeat;
       background-position: center;
       border-style: solid; }
+    .row5 .col-1 .rodneytype {
+      padding-top: 7rem;
+      font-size: 3rem; }
     .row5 .col-1 .steve {
       height: 27em;
       width: 95%;
@@ -108,6 +113,9 @@ span.article3 {
       background-position: center;
       border-style: solid;
       margin-top: .5rem; }
+    .row5 .col-1 .stevetype {
+      padding-top: 7rem;
+      font-size: 3rem; }
   .row5 aside.tommy {
     background-size: 42rem;
     background-position: 49% 0px;
@@ -118,6 +126,11 @@ span.article3 {
     width: 34%;
     display: inline-flex;
     border-style: solid; }
+  .row5 .tommytype {
+    padding-top: 16rem;
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 2rem; }
 
 .row6 {
   border-bottom-style: outset;
@@ -149,7 +162,7 @@ span.article3 {
   margin-bottom: 3rem;
   position: center;
   margin-left: 27rem;
-  width: 50%;
+  width: 45rem;
   display: inline-flex;
   border-bottom-style: outset; }
 
@@ -225,8 +238,6 @@ h6 {
   padding-right: 1%;
   color: black;
   margin-top: 2rem; }
-  h6.hover {
-    color: green; }
 
 .sociallinks {
   display: flex;
@@ -293,3 +304,88 @@ h6 {
   right: 918px;
   width: 179px;
   height: 100px; }
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .main-content .row1 {
+    display: none; }
+  .main-content .row2 h2 {
+    display: block;
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    margin: 0 auto; }
+  .main-content .row3 .grid {
+    display: none; }
+  .main-content .row3 .sliderimg img {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3rem; }
+  .main-content .row3 #logo {
+    display: none; }
+  .main-content .slider-buttons {
+    width: 98%;
+    margin-left: 48%; }
+  .main-content .row4 {
+    position: relative;
+    margin-left: 0rem;
+    display: flex;
+    padding: 1em;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    width: 98%; }
+  .main-content .row4 .readmore {
+    font-size: .7rem;
+    padding-left: 3.5rem;
+    width: 33%; }
+  .main-content .row5 .col-1 {
+    display: inline;
+    font-size: -3.3rem;
+    color: white;
+    width: 56%; }
+  .main-content .row5 .tommy {
+    display: inline-block;
+    font-size: -3.3rem;
+    color: white;
+    width: 98;
+    height: 371px;
+    width: 470px;
+    margin-top: .5rem;
+    margin-left: -1rem; }
+  .main-content .row5 .tommytype {
+    padding-top: 8rem;
+    font-size: 2rem;
+    text-align: center; }
+  .main-content .row5 .lancetype {
+    padding-top: 6rem;
+    font-size: 2rem; }
+  .main-content .row5 .rodneytype {
+    padding-top: 6rem;
+    font-size: 2rem; }
+  .main-content .row5 .stevetype {
+    padding-top: 7rem;
+    font-size: 2rem; }
+  .main-content .row6 {
+    height: 220px;
+    width: 99%;
+    display: inline-flex;
+    margin: 0 auto;
+    margin-bottom: 2rem; }
+  .main-content .row6 img {
+    width: 9%;
+    display: inline-flex;
+    margin: 0 auto; }
+  .footer {
+    width: 98%;
+    margin-left: 0; }
+  .footer .foottext {
+    display: none; }
+  .footer .foottext2 {
+    width: 98%; }
+  .footer .foottext2 .sumbit1 p {
+    background-color: #b31217;
+    padding: 2%;
+    color: white;
+    text-align: center; } }
