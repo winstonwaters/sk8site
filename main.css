@@ -61,40 +61,63 @@ span.article3 {
   width: 33%; }
 
 .row5 {
-  width: 100%;
-  display: inline-flex;
-  flex-wrap: wrap; }
-  .row5 p {
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-    padding: 0; }
-
-.col-1 {
-  width: 60%;
-  display: inline-block; }
-
-.2photos {
-  vertical-align: top;
-  display: -webkit-inline-box;
-  height: 2rem;
-  width: 2rem; }
-
-.steve {
-  height: 2rem;
-  width: 4rem;
-  clear: both; }
-
-.col-2 {
-  width: 40%;
-  vertical-align: top;
-  display: inline-block;
-  float: right; }
-
-.tommy {
-  position: absolute;
-  height: 39rem; }
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-bottom: 5rem;
+  text-align: center; }
+  .row5 .col-1 {
+    width: 65%;
+    height: 27em;
+    display: inline-block; }
+    .row5 .col-1 .two-photos {
+      width: 96%;
+      display: flex; }
+    .row5 .col-1 .lance {
+      background-size: 23rem;
+      margin-top: .5rem;
+      margin-right: .5rem;
+      height: 27em;
+      width: 49%;
+      display: inline-block;
+      background-image: url("images/lance.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      border-style: solid; }
+    .row5 .col-1 .rodney {
+      background-size: 25rem;
+      margin-top: .5rem;
+      margin-right: .5rem;
+      height: 27em;
+      width: 49%;
+      display: inline-block;
+      background-image: url("images/rodney.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      border-style: solid; }
+    .row5 .col-1 .steve {
+      height: 27em;
+      width: 95%;
+      display: block;
+      background-image: url("images/steve.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      border-style: solid;
+      margin-top: .5rem; }
+  .row5 aside.tommy {
+    background-size: 42rem;
+    background-position: 49% 0px;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    height: 56em;
+    background-image: url("images/tommy.png");
+    width: 34%;
+    display: inline-flex;
+    border-style: solid; }
 
 .row6 {
   border-bottom-style: outset;
