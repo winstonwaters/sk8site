@@ -38,9 +38,10 @@
 }
 
 .foottext2 {
+  text-align: center;
   width: 47%;
   color: gray;
-  margin-left: 1rem;
+  margin-left: 3rem;
   border-bottom-style: inset;
   border-right-style: inset;
   border-left-style: solid;
@@ -48,16 +49,19 @@
   padding: 1rem;
   font-size: 1rem;
   .name {
+    width: 95%;
     border: .1em solid gray;
     padding: 3%;
     margin-bottom: 2%;
   }
   .email {
+    width: 95%;
     border: .1em solid gray;
     padding: 3%;
     margin-bottom: 2%;
   }
   .write {
+    width: 95%;
     border: .1em solid gray;
     padding-top: 1%;
     padding-left: 3%;
@@ -67,6 +71,10 @@
   }
 }
 
+.foottext2 .name {
+  width: 95%;
+}
+
 .submit1 p {
   float: right;
   width: 50%;
@@ -74,4 +82,19 @@
   padding: 2%;
   color: white;
   text-align: center;
+}
+
+.submit1 p:hover {
+
+  background-color: white;
+  padding: 2%;
+  color: $primaryRed;
+
+}
+
+
+
+.write textarea {
+  width: 100%;
+  border: none;
 }
